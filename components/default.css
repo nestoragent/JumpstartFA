@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("./Avenir/Avenir-Black.woff2") format("woff2"),
+    url("./Avenir/Avenir-Black.woff") format("woff");
+}
+
+.mainBlock {
+    position: absolute;
+    width: 305px;
+    height: 300px;
+    left: 48px;
+    top: 112px;
+
+    background: #FFFFFF;
+
+    /* Normal Stroke */
+    border: 1px solid #F1F4F6;
+    box-sizing: border-box;
+}
+
+.pinkLink {
+    position: absolute;
+    width: 304px;
+    height: 4px;
+    left: 48px;
+    top: 407px;
+
+    background: #FEDEDD;
+}
+
+.mainHeader {
+    position: absolute;
+    width: 188px;
+    height: 40px;
+    left: 48px;
+    top: 58px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.header {
+    position: absolute;
+    width: 243px;
+    height: 22px;
+    left: 31px;
+    top: 78px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+    /* identical to box height */
+    text-align: center;
+
+    /* Heading Color */
+    color: #0F2137;
+}
+
+.commonText {
+    position: absolute;
+    width: 243px;
+    height: 72px;
+    left: 31px;
+    top: 110px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+
+    /* or 18px */
+    text-align: center;
+
+    color: #343D48;
+}
+
+.viewDocument {
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    left: 86px;
+    top: 9px;
+
+    /* Card Button */
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    /* identical to box height */
+
+    color: #8C14FC;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.learnMoreButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 9px 0px 0px 15px;
+
+    position: absolute;
+    width: 243px;
+    height: 32px;
+    left: 31px;
+    top: 236px;
+
+    border: 1px solid #8C14FC;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.paperFrame {
+    position: absolute;
+    left: 140px;
+    top: 35px;
+}
+
+.group1 {
+    position: absolute;
+    top: 18.87px;
+    left: 6.86px;
+}
+
+.group1vector1 {
+    width: 1.96px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group2 {
+    position: absolute;
+    top: 18.87px;
+    left: 10.54px;
+}
+
+.group2vector1 {
+    width: 6.74px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group3 {
+    position: absolute;
+    top: 16.54px;
+    left: 6.86px;
+}
+
+.group3vector1 {
+    width: 1.96px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group4 {
+    position: absolute;
+    top: 16.54px;
+    left: 10.54px;
+}
+
+.group4vector1 {
+    width: 8.46px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group5 {
+    position: absolute;
+    top: 14.09px;
+    left: 6.86px;
+}
+
+.group5vector1 {
+    width: 1.96px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group6 {
+    position: absolute;
+    top: 14.22px;
+    left: 10.54px;
+}
+
+.group6vector1 {
+    width: 7.6px;
+    height: 0.74px;
+    background: #DA0703;
+}
+
+.group7 {
+    position: absolute;
+    top: 6px;
+    left: 6.86px;
+}
+
+.ellipse {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 130px;
+    top: 25px;
+
+    border-radius: 50%;
+    background: #FEDEDD;
+}
